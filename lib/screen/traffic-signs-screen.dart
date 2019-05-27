@@ -36,7 +36,11 @@ class _TrafficSignsScreenState extends State<TrafficSignsScreen>{
                   Expanded(
                     flex: 3,
                     child: Text(
-                      title
+                      title,
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold
+                      ),
                     ),
                   ),
                 ],

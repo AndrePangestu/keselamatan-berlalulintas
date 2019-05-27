@@ -48,7 +48,13 @@ flutter:
    - assets/rambu/Indonesia_New_Road_Sign_1j.png
    - assets/rambu/Indonesia_New_Road_Sign_1g.png
 
-   - assets/item_motor/motorcycle_helmets.png
+   - assets/items_motor/motorcycle_helmets.png
+   - assets/items_motor/jaket.jpeg
+   - assets/items_motor/sarungtangan.jpeg
+   - assets/items_motor/sepatu.jpeg
+
+   - assets/items_car/seatbelt.jpeg
+   - assets/items_car/airbag.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

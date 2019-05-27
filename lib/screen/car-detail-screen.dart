@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:keselamatan_berlalulintas/model/motor-model.dart';
+import 'package:keselamatan_berlalulintas/model/car-model.dart';
 
-class MotorDetailScreen extends StatefulWidget {
-  MotorDetailScreen({
+class CarDetailScreen extends StatefulWidget {
+  CarDetailScreen({
     Key key, 
     this.title,
     this.titleItems,
     this.imageItems,
-    this.motorDetailItems
+    this.carDetailItems
   }) : super(key: key);
 
   final String title;
   final String titleItems;
   final String imageItems;
-  final List motorDetailItems;
+  final List carDetailItems;
 
   @override
-  _MotorDetailScreenState createState() => _MotorDetailScreenState();
+  _CarDetailScreenState createState() => _CarDetailScreenState();
 }
 
-class _MotorDetailScreenState extends State<MotorDetailScreen>{  
+class _CarDetailScreenState extends State<CarDetailScreen>{  
 
   Widget descContentItem(String no, String desc){
     return Row(
@@ -79,10 +79,10 @@ class _MotorDetailScreenState extends State<MotorDetailScreen>{
                   ),
                   Expanded(
                     child: ListView.builder(
-                      itemCount: widget.motorDetailItems.length,
+                      itemCount: widget.carDetailItems.length,
                       itemBuilder: (BuildContext buildContext, int index){
-                        MotorDetailArguments motorDetailArguments = widget.motorDetailItems[index];
-                        return descContentItem(motorDetailArguments.no, motorDetailArguments.descContentItem);
+                        CarDetailArguments carDetailArguments = widget.carDetailItems[index];
+                        return descContentItem(carDetailArguments.no, carDetailArguments.descContentItem);
                       }
                     ),
                   )

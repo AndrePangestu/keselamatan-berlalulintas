@@ -18,11 +18,17 @@ class _MyHomePageState extends State<MyHomePage> {
       height: 50.0,
       padding: EdgeInsets.symmetric(horizontal: 10),
       child: Card(
+        color: Colors.blue,
         child: InkWell(
           onTap: _toMotorDetailScreen,
           child: Center(
             child: Text(
               'Motor',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 16.0,
+                fontWeight: FontWeight.bold
+              ),
             ),
           ),
         )
@@ -36,11 +42,17 @@ class _MyHomePageState extends State<MyHomePage> {
       height: 50.0,
       padding: EdgeInsets.symmetric(horizontal: 10),
       child: Card(
+        color: Colors.blue,
         child: InkWell(
           onTap: _toCarDetailScreen,
           child: Center(
             child: Text(
               'Mobil',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 16.0,
+                fontWeight: FontWeight.bold
+              ),
             ),
           ),
         )
@@ -54,11 +66,17 @@ class _MyHomePageState extends State<MyHomePage> {
       height: 50.0,
       padding: EdgeInsets.symmetric(horizontal: 10),
       child: Card(
+        color: Colors.blue,
         child: InkWell(
           onTap: _toTrafficSignsDetailScreen,
           child: Center(
             child: Text(
               'Rambu Lalu Lintas',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 16.0,
+                fontWeight: FontWeight.bold
+              ),
             ),
           ),
         )

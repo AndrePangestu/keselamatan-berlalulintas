@@ -1,8 +1,8 @@
-class MotorDetailArguments {
+class CarDetailArguments {
   final String no;
   final String descContentItem;
 
-  MotorDetailArguments({
+  CarDetailArguments({
     this.no, 
     this.descContentItem
   });
